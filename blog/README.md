@@ -29,3 +29,18 @@ http://127.0.0.1:8000/admin/
  логин: guest
 
  пароль: skillfaktory
+ 
+______________________________________________
+API: /categories/
+Allow: GET, POST, HEAD, OPTIONS
+_____________________________________________
+API: /categories/<cat_id>
+Allow: GET, PUT, PATCH, DELETE, HEAD, OPTIONS
+_____________________________________________
+API: /<post_id>
+Allow: GET, PUT, PATCH, DELETE, HEAD, OPTIONS
+_____________________________________________
+API: /authors/
+API: /authors/<author_id>
+Allow: GET, HEAD, OPTIONS
+_____________________________________________
